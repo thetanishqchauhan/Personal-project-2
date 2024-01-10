@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+::-moz-selection {
+  color: #ffffff;
+  background: #d94948;
+}
+
+::selection {
+  color: #ffffff;
+  background: #d94948;
+}
+
+.navbar{
+    background-color: #01162888;
+    overflow: hidden;
+}
+
+#site_logo1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.navbutton{
+    float: right;
+    align-items: center;
+    margin-top: 1.7%;
+    margin-bottom: 1.5%;
+}
+
+.navbutton .page-link{
+    color: #ff0000;
+}
+
+.navbutton a{
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbutton a:hover{
+    color: #ff0000;
+    transition: 300ms;
+}
+
+.bg-img{
+    background-image: url(/logo/SHIVANGI\ LEARNING\ POINT_\ bg-img.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 92%;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+  .topimg-column{
+    background-color: #01162888;
+    min-height: 100vh;
+}
+
+.topimg-text{
+    position: absolute;
+    top: 55%;
+    left: 50.59%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.topimg-column h6 {
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    font-weight: 550;
+    letter-spacing: 1px;
+  }
+
+  .topimg-column h1 {
+    color: #ffffff;
+    font-size: 59px;
+    border: none;
+    font-weight: 550;
+    letter-spacing: 1px;
+  }
+  
+.topimg-column .topimg-btn {
+    background-color: #d94948;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    font-weight: 550;
+    line-height: 1;
+    letter-spacing: 1px;
+    transition: 300ms linear;
+  }
+
+  .topimg-btn:hover{
+    background-color: #ff0000;
+    transition: 300ms;
+  }
+
+  .about{
+    margin-top: 8%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .about h6{
+    font-size: 20px;
+    border: none;
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin-bottom: 1.5%;
+  }
+
+  .about h1{
+    font-size: 40px;
+    border: none;
+    font-weight: 550;
+    margin-bottom: 2.5%;
+  }
+
+  .about p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 10;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #p2{
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 10;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .about-btn{
+    background-color: #d94948;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    font-weight: 550;
+    line-height: 1;
+    letter-spacing: 1px;
+    transition: 300ms linear;
+    margin-top: 2.5%;
+  }
+
+  .about-btn:hover{
+    background-color: #ff0000;
+    transition: 300ms;
+  }
+
+  #yt-link{
+    text-decoration: none;
+    color: #d94948;
+  }
+
+  #yt-link:hover{
+    color: #ff0000;
+  }
+
+.book-background{
+  background-image: url(/logo/GettyImages_577660404.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 82%;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.book-background-overlay{
+  background-color: #011628b0;
+  min-height: 100vh;
+}
+
+.book-background-text{
+  color: #ffffff;
+}
+
+.book-bg-para1{
+  padding-bottom: 20px;
+  border-bottom: 2px #ffffff solid;
+  padding-top: 10%;
+  margin-left: 15%;
+  margin-right: 30%;
+}
+
+.book-bg-para1 h6{
+  font-size: 18px;
+  border: none;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+.book-bg-para2{
+  padding-bottom: 20px;
+  border-bottom: 0.5px #ffffff solid;
+  padding-top: 3%;
+  margin-left: 15%;
+  margin-right: 30%;
+}
+
+.book-bg-para2 h5{
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.book-bg-para3{
+  padding-bottom: 20px;
+  border-bottom: 0.5px #ffffff solid;
+  padding-top: 3%;
+  margin-left: 15%;
+  margin-right: 30%;
+}
+
+.book-bg-para3 h5{
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.posts{
+  margin-top: 8%;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.posts h6{
+  font-size: 20px;
+  border: none;
+  font-weight: 550;
+  letter-spacing: 1px;
+  margin-bottom: 1.5%;
+}
+
+.posts h1{
+  font-size: 40px;
+  border: none;
+  font-weight: 550;
+  margin-bottom: 2.5%;
+}
+
+.row {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.column {
+  flex: 25%;
+  padding: 16px;
+}
+
+.column img{
+  transition: 180ms linear;
+}
+
+.column img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ff0000;
+  transition: 180ms linear;
+}
+
+.notes-thumbnail-undertext{
+  color: black;
+}
+
+.posts-btn{
+  background-color: #d94948;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  font-weight: 550;
+  line-height: 1;
+  letter-spacing: 1px;
+  transition: 300ms linear;
+  margin-top: 2.5%;
+}
+
+.posts-btn:hover{
+  background-color: #ff0000;
+  transition: 300ms;
+}
+
+footer{
+  margin-bottom: 0;
+}
+
+.footer_container {
+  background-color: #011627;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footer{
+width: 80%;
+height: auto;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+
+.footer_section {
+display: flex;
+flex-direction: column;
+margin-right: 4rem;
+}
+
+.footer_section h2{
+margin-bottom: 2rem;
+font-size: 25px;
+letter-spacing: 1px;
+color: #d94948;
+}
+
+.footer_section a{
+color: #ffffff;
+font-size: 20px;
+margin-bottom: 0.5rem;
+text-decoration: none;
+letter-spacing: 1px;
+}
+
+.footer_section a:hover{
+color: #d94948;
+transition: 50ms ease-out;
+}
+
+.footer_email_section{
+flex-direction: column;
+}
+
+.footer_email_section h2{
+margin-bottom: 2rem;
+font-size: 25px;
+letter-spacing: 1px;
+color: #d94948;
+}
+
+#footer_email{
+height: 15px;
+border-radius: 5px;
+padding: 10px;
+font-size: 15px;
+border: 1px solid ;
+background: #f1f1f1;
+}
+
+#footer_email_submit{
+border-radius: 5px;
+padding: 7px;
+font-size: 16px;
+border: 1px solid #011627;
+background: #f1f1f1;
+}
+
+#footer_email_submit:hover{
+background-color: #d94948;
+}
